@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css" integrity="sha512-T7lIYojLrqj7eBrV1NvUSZplDBi8mFyIEGFGdox8Bic92Col3GVrscbJkL37AJoDmF2iAh81fRpO4XZukI6kbA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .shadow-weather{
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-[#2D4768] to-[#243950]">
+<div id="weather-data" class="mx-auto max-w-md mt-5  px-5 pt-5 pb-10 rounded-xl text-white bg-gradient-to-r from-[#152237] to-[#223855] shadow-weather">
+    <div class="flex flex-col justify-center items-center text-2xl font-semibold">
+        <span class="animate-spin"><i class="ri-loader-2-line"></i></span>
+        <span>Loading...</span>
+    </div>
+</div>
+<script src="./script.js"></script>    
+</body>
+</html>
